@@ -2,6 +2,6 @@
 
 <div *ngFor="let project of projects | async"  (click)="goToDetailPage(project)" class="panel panel-default">
   <div class="panel-body">
-    <h4><em>{{project.name}}</em>, <em>{{project.amountRaised}}</em></h4>
+    <h4><em>{{project.name}}</em>, <em>$ {{project.amountRaised}}</em></h4>
   </div>
 </div>
