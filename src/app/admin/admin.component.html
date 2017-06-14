@@ -1,0 +1,43 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class = "panel-title">Add New Project</h3>
+  </div>
+    <div class="panel-body">
+      <div>
+        <label>Name of Project:</label>
+        <br>
+        <input #newName>
+      </div>
+
+      <div>
+        <label>Description of Project:</label>
+        <br>
+        <input #newDescription>
+      </div>
+
+      <div>
+        <label>Founders of project:</label>
+        <br>
+        <textarea #newStarters></textarea>
+      </div>
+
+      <div>
+        <label>Album Description:</label>
+        <br>
+        <textarea #newGoal></textarea>
+      </div>
+
+      <div>
+        <label>What are the plans for the project once you meet your goal:</label>
+        <br>
+        <textarea #newPlans></textarea>
+      </div>
+
+      <div>
+        <label>What rewards/giveaways are going to entice people to contribute to your project:</label>
+        <br>
+        <textarea #newRewards></textarea>
+      </div>
+      <button (click) = "submitForm(newName.value, newDescription.value, newStarters.value, newGoal.value, newPlans.value, newRewards.value); newName.value=''; newDescription.value=''; newStarters.value =''; newGoal.value =''; newPlans.value =''; newRewards.value=''"></button>
+    </div>
+</div>

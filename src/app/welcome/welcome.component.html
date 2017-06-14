@@ -1,7 +1,7 @@
 <h2>Find a project or charity to help!</h2>
 
-<div *ngFor="let project of projects" (click)="goToDetailPage(project)" class="panel panel-default">
+<div *ngFor="let project of projects | async"  (click)="goToDetailPage(project)" class="panel panel-default">
   <div class="panel-body">
-    <h4><em>{{project.name}}</em></h4>
+    <h4><em>{{project.name}}</em>, <em>{{project.amountRaised}}</em></h4>
   </div>
 </div>
