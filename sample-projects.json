@@ -1,0 +1,26 @@
+{ "project": [{
+  "name": "Jamaican Bobsled Team",
+  "description": "Help the first Jamaican bobsled team fund their trip to the Winter Olympics",
+  "starters": "Derice Bannock",
+  "goal": "$10000",
+  "plans": "Buy sled and tickets to the Winter Olympics",
+  "rewards": "Help train members of the team"
+}, {
+  "name": "Bring the Sonics Back",
+  "description": "Petition for the NBA to bring back the Seattle SuperSonics",
+  "starters": "The Glove, Shawn Kemp, Ray Allen",
+  "goal": "$100000",
+  "plans": "Build a new stadium to replace Key Arena",
+  "rewards": "Help train members of the team, get placed in a raffle for courtside season tickets"
+}, {
+  "name": "The Mighty Ducks",
+  "description": "Win the tournament",
+  "starters": "Gordon Bombay",
+  "goal": "$1000000",
+  "plans": "Raise money for hockey gear and training facility",
+  "rewards": "See the bash bros beat the Russians"
+  }]
+
+
+
+}
